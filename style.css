@@ -111,37 +111,10 @@ body {
 
 /* Media Queries for Responsive Design */
 
-@media screen and (max-width: 768px) {
-    .card {
-        padding: 30px;
-    }
-    .weather h1 {
-        font-size: 60px;
-    }
-    .weather h2 {
-        font-size: 35px;
-    }
-    .weather-icon {
-        width: 140px;
-        margin-top: 20px;
-    }
-    .details {
-        padding: 0 10px;
-        margin-top: 40px;
-    }
-    .col img {
-        width: 30px;
-    }
-    .humidity,
-    .wind {
-        font-size: 24px;
-    }
-}
-
 @media screen and (max-width: 480px) {
     .card {
         width: 96%;
-        max-width: 470px;
+        max-width: none;
         padding: 20px;
     }
     .weather h1 {
@@ -164,5 +137,17 @@ body {
     .humidity,
     .wind {
         font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+    .search input {
+        padding: 8px 20px;
+        font-size: 16px;
+        height: 50px;
+    }
+    .search button {
+        width: 50px;
+        height: 50px;
     }
 }
