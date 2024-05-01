@@ -140,7 +140,7 @@ body {
     }
 }
 
-@media screen and (min-width: 321px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
     .search input {
         padding: 8px 20px;
         font-size: 16px;
