@@ -1,3 +1,5 @@
+/* Common styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -138,6 +140,8 @@ body {
 
 @media screen and (max-width: 480px) {
     .card {
+        width: 96%;
+        max-width: 470px;
         padding: 20px;
     }
     .weather h1 {
